@@ -1,0 +1,240 @@
+body{
+    overflow-x: hidden;
+/*    margin-top: 0;*/
+}
+.navbar{
+    font-family: 'Raleway', sans-serif;
+    padding: .5rem 1rem;
+    
+    
+}
+.hm{
+    border-bottom: solid #2DC997;
+ 
+}
+
+header.front{
+    height: 100vh;
+    width: 100%;
+    background:
+        linear-gradient(
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)        
+        ),
+        url(../Images/mainbg3.jpg)fixed top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+/*    background-attachment: scroll;*/
+    text-align: center;
+/*    position: relative;*/
+}
+.navbar .navbar-brand {
+    
+    color: #2DC997;
+    font-size: 2em;
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar .nav-item{
+    margin: auto .7em;
+}    
+
+
+.nav-item  a:hover{
+    border-bottom: solid #2DC997;
+}
+
+header.front .content{
+    text-align: center;
+    padding-top: 40vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.content h1{
+    font-weight: 700;
+    line-height: 56px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.content button{
+    background-color: #2DC997;
+    color: white;
+    border: solid #2DC997;
+    border-radius: 2em;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 0.5em 1.5em;
+    margin-top: 1.4em;
+}
+.content button:hover{
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+.section{
+    text-align: center;
+    margin: 4em;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+p{
+    color: #7c7c7c;
+    font-family: 'Oswald', sans-serif;
+}
+.services .col-sm-4{
+    margin-top: 3em;
+    padding: 0 3em;
+}
+.fa-circle{
+    color:#2DC997;
+}
+.portfolio{
+    min-width: 100%;
+    margin: 0;
+    background-color: rgba(234, 234, 234, 0.55);
+}
+.section-head{
+    text-align: center;
+    padding-top: 6em;
+    padding-bottom: 3em;
+}
+.portfolio > .content{
+    padding-bottom: 8em;
+}
+.card {
+    margin: .5em 2em
+}
+.card:hover {
+    background-color: rgba(45,201,151,0.8);
+}
+.card:hover img{
+    background-color: rgba(45,201,151,0.8);
+    opacity:0.5;
+}
+.card h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+.about{
+    height: 200vh;
+    width: 100%;
+    background:
+        linear-gradient(
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)        
+        ),
+        url(../Images/aboutbg3.jpeg)fixed top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+/*    margin: 0;*/
+    color: #aaaaaa;
+/*    overflow: hidden;*/
+}
+.about > .content img{
+    border-radius: 50%;
+    height: 10em;
+    border:solid #868282 3px;
+/*    border-style:solid;*/
+/*    opacity: 0.5;*/
+}
+.about > .content li{
+    padding: 4em 0;
+}
+.fst .panel{
+    font-size: 0.8em;
+    float: left;
+    text-align: right;
+}
+.sc img{
+    float: left;
+}
+.sc {
+    margin-left: 14.7em;
+}
+.sc .last-img{
+    float: left;
+    width: 180px;
+    height: 200px;
+    background-color: #2DC997;
+    border-radius: 50%;
+    height: 10em;
+    border:solid #868282 3px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: white;
+    
+}
+ul{
+    list-style-type: none;
+    margin-left: 25%
+}
+.team{
+    background-color: white;
+}
+.team{
+    text-align: center;
+    padding-bottom: 5em;
+}
+.team img{
+    border-radius: 50%;
+}
+.team a{
+    padding: 0 0.1em;
+}
+.fa-facebook-square{
+    color: #4267B2;
+}
+.fa-linkedin{
+    color: #0077B5;
+}
+.fa-twitter-square{
+    color: #1DA1F2
+}
+
+.contacts{
+    height: 50em;
+    width: 100%;
+    
+    background:
+        linear-gradient(
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)        
+        ),
+        url(../Images/contacbg.jpeg)fixed top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    color: white;
+}
+.contacts .form{
+    width: 50%;
+    margin-left: 20em;
+}
+.contacts .btn{
+    margin-left: 14em;
+    margin-top: 3em;
+    background-color: #2DC997;
+    border-color: #2DC997;
+    border-radius: 2em;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 0.5em 1.5em;
+}
+.contacts .btn:hover{
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+.footer{
+    padding: 1em;
+    background-color: white;
+}
+.footer .terms a{
+    color: #2DC997;
+}
